@@ -1,0 +1,10 @@
+train: ../Motor.v1i.yolov5pytorch/train/images
+val: ../Motor.v1i.yolov5pytorch/valid/images
+nc: 2
+names: ['motorbike_plate', 'car_plate']
+roboflow:
+  workspace: uyen-gjbfv
+  project: motor-jppwz
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/uyen-gjbfv/motor-jppwz/dataset/1
